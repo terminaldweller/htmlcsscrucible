@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  color: blue;
+  font-size: 4rem;
+}
+
+h2 {
+  color: green;
+  font-size: 3rem;
+}
+
+a {
+  color: cyan;
+  font-size: 2rem;
+  margin: 20px;
+}
+
+p {
+  color: olive;
+  font-size: 1rem;
+}
+
+#first {
+  color: lightslategrey;
+  background-color: chocolate;
+}
+
+#second {
+  color: crimson;
+  background: yellow;
+}
+
+body{
+  font-family: "DejaVuSansMono NF", Helvetica, monospace;
+  color: #808000;
+  background:
+  linear-gradient(
+  rgba(68, 68, 68, 1),
+  rgba(0, 0, 0, 1)
+  );
+  text-align: left;
+  padding: 20px;
+  border-style: solid;
+}
+
+a {
+  text-decoration: none;
+}

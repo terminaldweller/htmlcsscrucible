@@ -1,0 +1,13 @@
+version: "3.4"
+services:
+  nginx:
+    image: nginx:stable-alpine
+    networks:
+      - webnet
+    volumes:
+      - ./:/usr/share/nginx/html
+    ports:
+      - "9005:80"
+networks:
+  webnet:
+    driver: bridge
